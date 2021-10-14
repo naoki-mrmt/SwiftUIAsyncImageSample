@@ -12,8 +12,8 @@ struct ContentView: View {
     private let imageURL: String = "https://credo.academy/credo-academy@3x.png"
     
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        //MARK: - 1. BASIC
+        AsyncImage(url: URL(string: imageURL))
     }
 }
 
